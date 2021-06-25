@@ -1,0 +1,46 @@
+{% extends 'body.html' %}
+
+{% block content%}
+<table>
+    <th colspan="2">Your Weight on Various Planets will be:</th>
+    <tr>
+        <td>Mercury</td>
+        <td><b>{{w1}}kg</b></td>
+    </tr>
+    <tr>
+        <td>Venus</td>
+        <td><b>{{w2}}kg</b></td>
+    </tr>
+    <tr>
+        <td>Earth</td>
+        <td><b>{{w3}}kg</b></td>
+    </tr>
+    <tr>
+        <td>Mars</td>
+        <td><b>{{w4}}kg</b></td>
+    </tr>
+    <tr>
+        <td>Jupiter</td>
+        <td><b>{{w5}}kg</b></td>
+    </tr>
+    <tr>
+        <td>Saturn</td>
+        <td><b>{{w6}}kg</b></td>
+    </tr>
+    <tr>
+        <td>Uranus</td>
+        <td><b>{{w7}}kg</b></td>
+    </tr>
+    <tr>
+        <td>Neptune</td>
+        <td><b>{{w8}}kg</b></td>
+    </tr>
+
+    <tr>
+        <td>
+            <form action="home">
+                 <input type="submit" value="Back to Home" >
+        </td>
+    </tr>
+</table>
+{% endblock %}
